@@ -11,7 +11,7 @@ import java.util.Date;
 @Entity
 @Data
 @Table(name = "inventory")
-public class Costume {
+public class CostumeDto {
     @Id
     @Column(name = "id")
     private int id;
